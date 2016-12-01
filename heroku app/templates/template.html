@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Vishesh Balani | PrecogApp</title>
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<meta name="author" content="Vishesh Balani">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+		<link rel ="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+	</head>
+	<body>
+		<div class = "container-fluid">
+			<header class="row text-center"> 
+				<h1 id="heading">#USElection 2016 Tracker</h1>	
+			</header>
+			<section>
+				<h3>Total number of tweets colected: {{total_tweets}}</h3>
+				<h4>Total number of retweeted tweets: {{total_rts}}</h4>
+				<h4>Total number of original tweets: {{total_original}}</h4>
+				<div class="text-center space">
+					<a class="btn btn-default" id="button" href="/Top10">Top 10 Hashtags</a>
+					<a class="btn btn-default" id="button" href="/Tweets">Original vs Retweet</a>
+					<a class="btn btn-default" id="button" href="/Type">Type of Tweet</a>
+					<a class="btn btn-default" id="button" href="/Top10">Tweet Map</a>
+					<!--<a class="btn btn-default" id="" href="/Top10">Top 10 Hashtags</a>-->
+				</div>
+			</section>
+			<br><br>
+			<footer class="text-center">
+      				<h5>Made with <span id="red"> &hearts;</span> by Vishesh Balani</h5>
+      				<h5>&copy; Vishesh Balani 2016</h5>
+				<br><br>
+				<h6>Note:Graphs were generated locally using mongo-analyse.py</h6>
+    			</footer>
+			<!--<h3>Top 10 hashtags</h3>
+				{% for word in words %}
+			<div><p>{{ word }}</p></div>
+				{% endfor %}
+			-->
+						
+		</div>
+	</body>
+</html>

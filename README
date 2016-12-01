@@ -1,0 +1,15 @@
+Link for json mongodb data
+https://www.dropbox.com/sh/y2n20u5v6d9hyjv/AAB3AAtLnKEDySAo1YghVSVEa?dl=0
+json mongodb data was also uploaded to mlab
+
+
+file twitter-mongo.py was used to collect the tweets
+mongo-analyse.py was used to find the top 10 hashtags and plot them. The plot is column-highcharts.html
+The plot for original vs retweeted tweets is OTs_vs_RTs.html
+The plot for top 10 hashtags is column-highcharts.html
+
+
+Taken help from:
+Regex:      https://marcobonzanini.com/2015/03/09/mining-twitter-data-with-python-part-2/
+Nltk:       https://www.youtube.com/watch?v=Flpj_D8b1Vg Tutorial 5: Analyzing text using Python NLTK
+
