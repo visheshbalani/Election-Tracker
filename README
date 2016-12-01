@@ -4,7 +4,7 @@ json mongodb data was also uploaded to mlab
 
 
 file twitter-mongo.py was used to collect the tweets
-mongo-analyse.py was used to find the top 10 hashtags and plot them. The plot is column-highcharts.html
+mongo-analyse.py was used to analyse and plot the data.
 The plot for original vs retweeted tweets is OTs_vs_RTs.html
 The plot for top 10 hashtags is column-highcharts.html
 
