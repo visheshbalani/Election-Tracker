@@ -1,3 +1,11 @@
+#2016 United States Election Twitter Tracker
+
+Wrote a python script to collect, analyze and visualize twitter data for the 2016 US Elections.
+Collected tweets using Twitter's streaming API and stored them in a mongodb database. 
+Wrote a script to find the top 10 hashtags, type of tweets and location data of the 10,000+ tweets. 
+Created a simple web app to display the results using python flask.
+
+
 Link for json mongodb data
 https://www.dropbox.com/sh/y2n20u5v6d9hyjv/AAB3AAtLnKEDySAo1YghVSVEa?dl=0
 json mongodb data was also uploaded to mlab
